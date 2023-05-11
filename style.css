@@ -50,6 +50,13 @@ body {
                1px 15px 10px rgba(44, 215, 245, 0.5),
                1px 20px 30px rgba(44, 215, 245, 0.5),
                1px 25px 50px rgba(44, 215, 245, 0.5);
+     text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
 }
 
 table{
