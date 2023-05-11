@@ -81,7 +81,12 @@ ol{
     font-size: 20px;
     font-weight: 600px;
 }
-
+ul {
+    color: aqua;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
 p{
     color:aqua;
     font-size:20px;
