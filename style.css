@@ -152,3 +152,9 @@ font-size:25px;
     font-weight: 900;
     letter-spacing: 5px;
 }
+
+footer {
+    background-color: darkblue;
+    width: 100%;
+    height: 150px;
+}
