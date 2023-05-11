@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    background-size: 300% 300%;
+  background-image: linear-gradient(-45deg, rgb(0, 110, 255) 0%, rgb(0, 247, 255) 25%, rgb(0, 102, 255) 51%, rgb(0, 255, 85) 100%);
+  -webkit-animation: AnimateBG 20s ease infinite;
+          animation: AnimateBG 20s ease infinite;
+}
+
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ h1 {
+ font-size: 70px;
+  font-weight: 600px;
+  font-family: 'Roboto', sans-serif;
+  color: #38e66c;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px  #267beb,
+               1px 2px 0px  #267beb,
+               1px 3px 0px  #267beb,
+               1px 4px 0px  #267beb,
+               1px 5px 0px #267beb,
+               1px 6px 0px #267beb,
+               1px 10px 5px rgba(44, 215, 245, 0.5),
+               1px 15px 10px rgba(44, 215, 245, 0.5),
+               1px 20px 30px rgba(44, 215, 245, 0.5),
+               1px 25px 50px rgba(44, 215, 245, 0.5);
+}
+
+table{
+   color: white ; 
+}
+
+.link-header{
+    color: white;
+}
+
+.link-nav{
+    color: white;
+}
+
+h2{
+    color:#38e66c;
+   
+}
+
+.link-text{
+    color:#38e66c;
+}
+
+ol{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+p{
+    color:aqua;
+    font-size:20px;
+    font-weight: 600px;
+}
+
+.link-header{
+coior:aqua;
+font-size:25px;
+  font-weight: 600p
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(to right bottom,
+     rgba(245, 53, 177, 0.70),
+     rgba(30, 108, 217, 0)),
+     url('https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg');
+
+   
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+
+.brand-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+
+.brand { font-size: 20px;}
+
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+
+
+    backface-visibility: hidden;
+    margin-bottom: 30px;
+}
+
+
+.heading-primary-main {
+    display: block;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
