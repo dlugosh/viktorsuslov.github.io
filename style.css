@@ -75,7 +75,11 @@ h2{
 .link-text{
     color:#38e66c;
 }
-
+.scool{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 ol{
     color: aqua;
     font-size: 20px;
@@ -165,8 +169,4 @@ footer {
     height: 150px;
 }
 
-.scool{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
