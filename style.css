@@ -80,7 +80,6 @@ ol{
     color: aqua;
     font-size: 20px;
     font-weight: 600px;
-    text-align: center;
 }
 ul {
     color: aqua;
@@ -164,4 +163,10 @@ footer {
     background-color: darkblue;
     width: 100%;
     height: 150px;
+}
+
+.scool{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
